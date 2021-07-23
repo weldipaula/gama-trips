@@ -24,7 +24,6 @@ const Home: React.FC = () => {
 
   const [data, setData] = useState<Product[]>([])
   const [ car, setCar ] = useState<Car[]>([])
-  const [ total, setTotal ] = useState<number>(0)
 
   useEffect(() => {
     api.get('/produtos').then(
@@ -50,7 +49,7 @@ const Home: React.FC = () => {
 
     setCar([...car, product ])
     
-    const productStorage = JSON.stringify(data[index])
+
     const productCar = JSON.stringify(car)
 
     localStorage.setItem('carrinho',`${productCar}`)
