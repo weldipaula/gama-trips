@@ -27,7 +27,7 @@ const Home: React.FC = () => {
   const [ total, setTotal ] = useState<number>(0)
 
   useEffect(() => {
-    api.get('').then(
+    api.get('/produtos').then(
       response => {
         setData(response.data)
       }
