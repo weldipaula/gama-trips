@@ -1,0 +1,32 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "photo": "https://www.costacruzeiros.com/content/dam/costa/costa-magazine/article-images/what-to-see-in-rio-de-janeiro/rio-de-janeiro-panorama_YuJas-Shutterstock_1.jpg.image.648.487.high.jpg",
+      "name": "Rio de Janeiro",
+      "description": "8 dias",
+      "price": 1899
+    },
+    {
+      "id": 2,
+      "photo": "https://www.costacruzeiros.com/content/dam/costa/costa-magazine/articles-magazine/beaches/melhores-praias-de-santa-catarina/sepultura-beach_d.jpg.image.648.487.high.jpg",
+      "name": "Praia da Sepultura",
+      "description": "6 dias",
+      "price": 999
+    },
+    {
+      "id": 3,
+      "photo": "https://www.costacruzeiros.com/content/dam/costa/costa-magazine/articles-magazine/beaches/praias-da-bahia/engenhoca-beach_d.jpg.image.648.487.high.jpg",
+      "name": "Praia da engenhoca",
+      "description": "6 dias",
+      "price": 1499
+    },
+    {
+      "id": 4,
+      "photo": "https://www.costacruzeiros.com/content/dam/costa/costa-magazine/articles-magazine/beaches/praias-de-nordeste/jericoacoara_d.jpg.image.648.487.high.jpg",
+      "name": "Jericoacoara – Ceará",
+      "description": "8 dias",
+      "price": 1199
+    }
+  ]
+}
