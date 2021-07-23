@@ -53,6 +53,7 @@ const Home: React.FC = () => {
     const productCar = JSON.stringify(car)
 
     localStorage.setItem('carrinho',`${productCar}`)
+    alert('Item salvo no carrinho')
   }
 
   return (
